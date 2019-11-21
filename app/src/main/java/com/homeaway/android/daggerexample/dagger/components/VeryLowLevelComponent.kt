@@ -3,7 +3,6 @@ package com.homeaway.android.daggerexample.dagger.components
 import android.app.Application
 import com.homeaway.android.daggerexample.application.initializers.ApplicationInitializer
 import com.homeaway.android.daggerexample.dagger.modules.ApplicationInitializersModule
-import com.homeaway.android.daggerexample.dagger.modules.LoggingInitializersModule
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton
@@ -13,6 +12,8 @@ import javax.inject.Singleton
     ApplicationInitializersModule::class
 ])
 interface VeryLowLevelComponent {
+
+    val application: Application
 
     val initializer: ApplicationInitializer
 
