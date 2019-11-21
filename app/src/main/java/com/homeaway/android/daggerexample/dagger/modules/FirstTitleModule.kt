@@ -1,4 +1,4 @@
-package com.homeaway.android.daggerexample.dagger
+package com.homeaway.android.daggerexample.dagger.modules
 
 import com.homeaway.android.daggerexample.titles.FirstTitleConfig
 import com.homeaway.android.daggerexample.titles.TitleConfig

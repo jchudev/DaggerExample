@@ -1,4 +1,4 @@
-package com.homeaway.android.daggerexample.dagger
+package com.homeaway.android.daggerexample.dagger.modules
 
 import com.homeaway.android.daggerexample.descriptions.DescriptionConfig
 import com.homeaway.android.daggerexample.screen.ScreenConfig
