@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dagger Example</string>
+    <string name="context_using_dependency_data">Some awesome data that maybe is parameterized…</string>
 </resources>
